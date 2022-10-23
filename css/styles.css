@@ -1,0 +1,266 @@
+
+
+/* Global settings */
+
+
+
+/* Navbar */
+
+.wm-nav {
+    /* background-image: url(../img/bg1.jpg); */
+    background-color: rgba(0, 0, 0, 0.594);
+    height: 13vh;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Cherish', cursive;
+    font-family: 'Big Shoulders Inline Text', cursive;
+    font-family: 'Bungee Hairline', cursive;
+    font-family: 'Wire One', sans-serif;
+
+    font-family: 'MuseoModerno', cursive;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Jumbotron */
+.line {
+    height: .5rem;
+    width: 16rem;
+    background-color: rgba(113, 36, 8, 0.594);
+}
+.jumbotron {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../img/bg3c.jpg);
+    background-size: cover;
+}
+.jumbotron-content {
+    background-color: rgba(0, 0, 0, 0.436);
+}
+.jumbotron-title-image {
+    background-image: url(../img/IMG_1945.jpg);
+    background-size: cover;
+    height: 20vh;
+    width: 30vw;
+}
+.jumbotron-title {
+    font-family: 'Cherish', cursive;
+    font-family: 'Big Shoulders Inline Text', cursive;
+    font-family: 'Bungee Hairline', cursive;
+
+    font-family: 'Aldrich', sans-serif;
+    font-family: 'MuseoModerno', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-family: 'Comforter Brush', cursive;
+    font-family: 'Codystar', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Wire One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+  
+   
+
+
+
+   
+   
+   
+    
+   
+   
+   
+   
+   
+    
+   
+    
+   
+    
+    
+    
+    
+}
+
+/* About Page */
+
+.about {
+    height: 700px;
+    width: 100vw;
+    background-image: url(../img/music1.jpg);
+    background-size: cover;
+}
+.about-card {
+    background-color: rgba(0, 0, 0, 0.477);
+}
+.about-image {
+    height: 20rem;
+    width: 100%;
+    background-image: url(../img/wm2.jpg);
+    background-size: cover;
+
+}
+
+/* Music Page */
+
+.music {
+    height: 3200px;
+    width: 100vw;
+    background-image: url(../img/bg7.jpg);
+    background-size: cover;
+}
+.music-card {
+    background-color: rgba(0, 0, 0, 0.463);
+}
+
+/* Services Page */
+.services {
+    height: 1500px;
+    width: 100vw;
+    background-image: url(../img/music3.jpg);
+    background-size: cover;
+}
+.services-card {
+    background-color: rgba(26, 0, 44, 0.842);
+    height: 15rem;
+}
+
+/* Testimonials Page */
+
+.testimonials {
+    height: 700px;
+    width: 100vw;
+    background-image: url(../img/bg6.jpg);
+    background-size: cover;
+}
+.testimonials-card {
+    height: 15rem;
+    width: 15rem;
+    background-color: rgba(0, 0, 0, 0.587);
+}
+
+/* Contact Page  */
+
+/* Footer */
+
+
+
+footer {
+    height: 10rem;
+    
+}
+
+/* Fonts  */
+
+/* font-family: 'Akronim', cursive;
+font-family: 'Aldrich', sans-serif;
+font-family: 'Alegreya SC', serif;
+font-family: 'Alumni Sans Collegiate One', sans-serif;
+font-family: 'Alumni Sans Inline One', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Aubrey', cursive;
+font-family: 'Averia Libre', cursive;
+font-family: 'Bahiana', cursive;
+font-family: 'Ballet', cursive;
+font-family: 'Barlow', sans-serif;
+font-family: 'Big Shoulders Inline Text', cursive;
+font-family: 'Blaka', cursive;
+font-family: 'Blaka Hollow', cursive;
+font-family: 'Bokor', cursive;
+font-family: 'Bungee Hairline', cursive;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Caesar Dressing', cursive;
+font-family: 'Chelsea Market', cursive;
+font-family: 'Cherish', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Codystar', cursive;
+font-family: 'Comforter Brush', cursive;
+font-family: 'Cute Font', cursive;
+font-family: 'Dokdo', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'DotGothic16', sans-serif;
+font-family: 'Dr Sugiyama', cursive;
+font-family: 'Eater', cursive;
+font-family: 'Emilys Candy', cursive;
+font-family: 'Encode Sans SC', sans-serif;
+font-family: 'Faster One', cursive;
+font-family: 'Fasthand', cursive;
+font-family: 'Finger Paint', cursive;
+font-family: 'Freckle Face', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Frijole', cursive;
+font-family: 'Gamja Flower', cursive;
+font-family: 'Geo', sans-serif;
+font-family: 'Germania One', cursive;
+font-family: 'Grenze Gotisch', cursive;
+font-family: 'Gugi', cursive;
+font-family: 'Henny Penny', cursive;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'IM Fell English SC', serif;
+font-family: 'IM Fell French Canon SC', serif;
+font-family: 'Jacques Francois Shadow', cursive;
+font-family: 'Jim Nightshade', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kelly Slab', cursive;
+font-family: 'Kranky', cursive;
+font-family: 'Lekton', sans-serif;
+font-family: 'Londrina Sketch', cursive;
+font-family: 'Loved by the King', cursive;
+font-family: 'Macondo', cursive;
+font-family: 'Marcellus SC', serif;
+font-family: 'Metal Mania', cursive;
+font-family: 'Michroma', sans-serif;
+font-family: 'Mirza', cursive;
+font-family: 'Monofett', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Mr Bedfort', cursive;
+font-family: 'MuseoModerno', cursive;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'New Tegomin', serif;
+font-family: 'Noto Sans Egyptian Hieroglyphs', sans-serif;
+font-family: 'Noto Serif Hebrew', serif;
+font-family: 'Noto Serif HK', serif;
+font-family: 'Odibee Sans', cursive;
+font-family: 'Passero One', cursive;
+font-family: 'Passions Conflict', cursive;
+font-family: 'Piedra', cursive;
+font-family: 'Pirata One', cursive;
+font-family: 'Play', sans-serif;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Princess Sofia', cursive;
+font-family: 'Prompt', sans-serif;
+font-family: 'Qahiri', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Raleway Dots', cursive;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Rubik Beastly', cursive;
+font-family: 'Rubik Dirt', cursive;
+font-family: 'Rubik Glitch', cursive;
+font-family: 'Rubik Marker Hatch', cursive;
+font-family: 'Rubik Maze', cursive;
+font-family: 'Ruslan Display', cursive;
+font-family: 'Russo One', sans-serif;
+font-family: 'Silkscreen', cursive;
+font-family: 'Six Caps', sans-serif;
+font-family: 'Skranji', cursive;
+font-family: 'Smooch Sans', sans-serif;
+font-family: 'Special Elite', cursive;
+font-family: 'Staatliches', cursive;
+font-family: 'Sunshiney', cursive;
+font-family: 'Supermercado One', cursive;
+font-family: 'Syne Mono', monospace;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Tourney', cursive;
+font-family: 'Train One', cursive;
+font-family: 'Tulpen One', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'UnifrakturMaguntia', cursive;
+font-family: 'Vibes', cursive;
+font-family: 'VT323', monospace;
+font-family: 'Wire One', sans-serif;
+font-family: 'Yatra One', cursive;
+font-family: 'Yuji Mai', serif;
+font-family: 'Zen Tokyo Zoo', cursive; */
