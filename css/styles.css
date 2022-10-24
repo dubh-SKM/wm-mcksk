@@ -2,14 +2,16 @@
 
 /* Global settings */
 
+title-box {
 
+}
 
 /* Navbar */
 
 .wm-nav {
     /* background-image: url(../img/bg1.jpg); */
-    background-color: rgba(0, 0, 0, 0.594);
-    height: 13vh;
+    background-color: rgb(0, 0, 0);
+    height: 10vh;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Cherish', cursive;
     font-family: 'Big Shoulders Inline Text', cursive;
@@ -21,6 +23,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
 /* Jumbotron */
 .line {
     height: .5rem;
@@ -28,13 +31,14 @@
     background-color: rgba(113, 36, 8, 0.594);
 }
 .jumbotron {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-image: url(../img/bg3c.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 .jumbotron-content {
-    background-color: rgba(0, 0, 0, 0.436);
+    background-color: rgba(0, 0, 0, 0.53);
 }
 .jumbotron-title-image {
     background-image: url(../img/IMG_1945.jpg);
@@ -57,37 +61,23 @@
     font-family: 'Prompt', sans-serif;
     font-family: 'Wire One', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
-  
-   
-
-
-
-   
-   
-   
-    
-   
-   
-   
-   
-   
-    
-   
-    
-   
     
     
-    
-    
+}
+.title-genres {
+    color: rgba(245, 190, 127, 0.749);
 }
 
 /* About Page */
 
 .about {
-    height: 700px;
+    min-height: 100vh;
     width: 100vw;
+    padding-top: 5rem;
     background-image: url(../img/music1.jpg);
     background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
 }
 .about-card {
     background-color: rgba(0, 0, 0, 0.477);
@@ -95,30 +85,78 @@
 .about-image {
     height: 20rem;
     width: 100%;
-    background-image: url(../img/wm2.jpg);
-    background-size: cover;
-
+    /* background-image: url(../img/wm2.jpg);
+    background-size: cover; */
+  
+}
+.about-interview {
+    background-color: rgba(0, 0, 0, 0.824);
 }
 
 /* Music Page */
 
 .music {
-    height: 3200px;
+    min-height: 100vh;
     width: 100vw;
+    padding-top: 6rem;
     background-image: url(../img/bg7.jpg);
     background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
 }
 .music-card {
     background-color: rgba(0, 0, 0, 0.463);
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-family: 'Cherish', cursive;
+    font-family: 'Big Shoulders Inline Text', cursive;
+    font-family: 'Bungee Hairline', cursive;
+
+    font-family: 'Aldrich', sans-serif;
+    font-family: 'MuseoModerno', cursive;
+    font-family: 'Montserrat', sans-serif;
+   
+
+ 
+
+
+
+    
 }
 
+/* Responsive YouTube Embed Code */
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
 /* Services Page */
+
 .services {
-    height: 1500px;
+    height: auto;
     width: 100vw;
     background-image: url(../img/music3.jpg);
     background-size: cover;
+    padding-top: 6rem;
+    font-family: 'Montserrat', sans-serif;
 }
+.title-box-services {
+    background-color: rgba(84, 2, 2, 0.308);
+}
+.services-descrition {
+    background-color: rgba(0, 0, 0, 0.525);
+    width: 70vw;
+}
+
 .services-card {
     background-color: rgba(26, 0, 44, 0.842);
     height: 15rem;
@@ -127,10 +165,11 @@
 /* Testimonials Page */
 
 .testimonials {
-    height: 700px;
+    min-height: 100vh;
     width: 100vw;
     background-image: url(../img/bg6.jpg);
     background-size: cover;
+    font-family: 'Montserrat', sans-serif;
 }
 .testimonials-card {
     height: 15rem;
@@ -142,12 +181,47 @@
 
 /* Footer */
 
-
-
 footer {
     height: 10rem;
-    
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
+.we-hope {
+    background-image: url(../img/wehopelogo.png);
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 3rem;
+    width: 10rem;
+}
+.abv {
+    background-image: url(../img/abv.jpg);
+    background-size: cover;
+    height: 10rem;
+    width: 10rem;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 480px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+@media only screen and (max-width: 1024px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+
 
 /* Fonts  */
 
@@ -264,3 +338,8 @@ font-family: 'Wire One', sans-serif;
 font-family: 'Yatra One', cursive;
 font-family: 'Yuji Mai', serif;
 font-family: 'Zen Tokyo Zoo', cursive; */
+
+
+
+/* Media Queries  */
+
